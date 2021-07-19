@@ -8,11 +8,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SubPage1Component } from './sub-page/sub-page1.component';
+import { SubPage2Component } from './sub-page/sub-page2.component';
+import { SubPage3Component } from './sub-page/sub-page3.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SubPage1Component,
+    SubPage2Component,
+    SubPage3Component,
   ],
   imports: [
     BrowserModule,
